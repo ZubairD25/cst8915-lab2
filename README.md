@@ -14,9 +14,6 @@ However, I was only allowed to create 3 VM's due to restrictions on Azure for St
 RabbitMQ and Product Service each were deployed on their own VM's
 Order Service and Store Front shared a VM 
 
-
-## 12-Factor App Refactoring
-
 ### Configuration and Backing Services
 
 For configuration: The Order Service was modified so that its port and RabbitMQ connection string are provided through environment variables instead of being hardcoded in the application. The Product Service was also modified to read its port from an environment variable. The Store Front uses environment variables to configure the URLs of the Order Service and Product Service.
