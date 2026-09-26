@@ -37,4 +37,4 @@ Each microservice has its own Git repository so that it can be developed, versio
 
 ## Demo Video
 
-YouTube (Unlisted): **[ADD VIDEO LINK HERE]**
+YouTube: **https://youtu.be/hRszhSj7b-4**
